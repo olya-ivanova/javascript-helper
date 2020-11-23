@@ -1,0 +1,29 @@
+MODULES:
+
+<script type="module"> uses to connect import/export for browsers
+export function a(){}
+export {a as b, c as d}; -> import * as e from './file.js';
+export default class A{} -> import A from './file.js'; - default can be the only one in a file or -> export {A as default};
+import {a} from "./file.js";
+import {a, b, c} from "./file.js";
+import * as a from "./file.js";
+// a.anymethod('something here');
+import {a as b, c as d} from "./file.js";
+//b('something here');
+//d('something here');
+"use script" - > always is in modules
+every module has its own scope
+module is executed only once
+if something changes in one module the other modules will see the changes
+import.meta - info about current module
+"this" is undefined
+modules are deferred (html loads first)
+async with modules -> script executes immediatelly after its loading
+import(module) -> loads module and returns promise (module's object with all exports inside it)
+
+
+
+
+
+
+
