@@ -22,6 +22,11 @@ async with modules -> script executes immediatelly after its loading
 import(module) -> loads module and returns promise (module's object with all exports inside it)
 
 
+ASYNC/AWAIT
+async is situated before function and always returns promise
+await works only inside async-functions and waits the finish of the function -> let result = await promise;
+
+
 
 
 
