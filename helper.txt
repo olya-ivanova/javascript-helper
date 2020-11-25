@@ -1,7 +1,7 @@
 OBJECTS:
 
 To clone object:
-Object.asign(destinationObject, src1, ..., srcN);
+Object.assign(destinationObject, src1, ..., srcN);
 
 MODULES:
 
