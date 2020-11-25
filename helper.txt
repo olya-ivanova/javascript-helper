@@ -1,3 +1,8 @@
+OBJECTS:
+
+To clone object:
+Object.asign(destinationObject, src1, ..., srcN);
+
 MODULES:
 
 <script type="module"> uses to connect import/export for browsers
